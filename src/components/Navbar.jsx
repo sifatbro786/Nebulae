@@ -39,7 +39,7 @@ export default function Navbar() {
             </div>
 
             {/* //* button */}
-            <Button>Start a Project</Button>
+            <Button>Get Started</Button>
         </div>
     );
 }
