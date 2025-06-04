@@ -32,7 +32,7 @@ export default function Products() {
         },
     ];
     return (
-        <div>
+        <div className="mt-32">
             {products.map((elem) => (
                 <Product key={elem?.title} value={elem} />
             ))}

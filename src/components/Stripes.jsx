@@ -5,26 +5,32 @@ export default function Stripes() {
         {
             url: "/logo1.svg",
             number: 48,
+            border: true,
         },
         {
             url: "/logo2.svg",
             number: 2,
+            border: true,
         },
         {
             url: "/logo3.svg",
             number: 11,
+            border: true,
         },
         {
             url: "/logo1.svg",
             number: 32,
+            border: true,
         },
         {
             url: "/logo2.svg",
             number: 9,
+            border: true,
         },
         {
             url: "/logo3.svg",
             number: 5,
+            border: false,
         },
     ];
 

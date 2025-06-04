@@ -1,9 +1,9 @@
 import Navbar from "./components/Navbar";
 import Work from "./components/Work";
 import Stripes from "./components/Stripes";
-import Projects from "./components/Products";
 import Products from "./components/Products";
 import Marquees from "./components/Marquees";
+import Cards from "./components/Cards";
 
 export default function App() {
     return (
@@ -13,6 +13,7 @@ export default function App() {
             <Stripes />
             <Products />
             <Marquees />
+            <Cards />
         </div>
     );
 }
