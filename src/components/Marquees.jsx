@@ -1,24 +1,24 @@
-import M1 from "/public/m1.svg";
-import M2 from "/public/m2.svg";
-import M3 from "/public/m3.svg";
-import M4 from "/public/m4.svg";
-import M5 from "/public/m5.svg";
-import M6 from "/public/m6.svg";
-import M7 from "/public/m7.svg";
-import M8 from "/public/m8.svg";
-import M9 from "/public/m9.svg";
-import M10 from "/public/m10.svg";
-import M11 from "/public/m11.svg";
-import M12 from "/public/m12.svg";
-import M13 from "/public/m13.svg";
-import M14 from "/public/m14.svg";
-import M15 from "/public/m15.svg";
-import M16 from "/public/m16.svg";
-import M17 from "/public/m17.svg";
-import M18 from "/public/m18.svg";
-import M19 from "/public/m19.svg";
-import M20 from "/public/m20.svg";
-import M21 from "/public/m21.svg";
+import M1 from "/m1.svg";
+import M2 from "/m2.svg";
+import M3 from "/m3.svg";
+import M4 from "/m4.svg";
+import M5 from "/m5.svg";
+import M6 from "/m6.svg";
+import M7 from "/m7.svg";
+import M8 from "/m8.svg";
+import M9 from "/m9.svg";
+import M10 from "/m10.svg";
+import M11 from "/m11.svg";
+import M12 from "/m12.svg";
+import M13 from "/m13.svg";
+import M14 from "/m14.svg";
+import M15 from "/m15.svg";
+import M16 from "/m16.svg";
+import M17 from "/m17.svg";
+import M18 from "/m18.svg";
+import M19 from "/m19.svg";
+import M20 from "/m20.svg";
+import M21 from "/m21.svg";
 import Marquee from "./Marquee";
 
 export default function Marquees() {
@@ -74,7 +74,7 @@ export default function Marquees() {
     return (
         <div className="py-20 mt-20">
             {images.map((item, idx) => (
-                <Marquee key={idx} imgUrls={item}/>
+                <Marquee key={idx} imgUrls={item} />
             ))}
         </div>
     );

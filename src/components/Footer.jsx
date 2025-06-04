@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import footerImg from "/public/footer.jpg";
+import footerImg from "/footer.jpg";
 
 export default function Footer() {
     return (
