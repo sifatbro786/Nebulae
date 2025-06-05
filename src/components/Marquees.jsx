@@ -74,7 +74,7 @@ export default function Marquees() {
     return (
         <div className="py-20 mt-20">
             {images.map((item, idx) => (
-                <Marquee key={idx} imgUrls={item} />
+                <Marquee key={idx} imgUrls={item} direction={idx === 0 ? "left" : "right"} />
             ))}
         </div>
     );
