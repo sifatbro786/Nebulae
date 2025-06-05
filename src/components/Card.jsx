@@ -1,9 +1,12 @@
+/* eslint-disable no-unused-vars */
+import { motion } from "framer-motion";
 import { IoIosArrowRoundForward } from "react-icons/io";
 
-export default function Card({ width, start, para, hover }) {
+export default function Card({ width, start, para, hover = false }) {
     return (
-        <div
-            className={`w-1/2 bg-zinc-800 rounded-xl p-5 ${hover} duration-200 ${width} min-h-[30rem] flex flex-col justify-between`}
+        <motion.div
+            whileHover={{ backgroundColor: hover && "#7443ff", padding: "25px" }}
+            className={`w-1/2 bg-zinc-800 rounded-xl p-5 duration-200 ${width} min-h-[30rem] flex flex-col justify-between`}
         >
             <div className="w-full">
                 <div className="w-full flex justify-between items-center">
@@ -32,6 +35,6 @@ export default function Card({ width, start, para, hover }) {
                     </p>
                 )}
             </div>
-        </div>
+        </motion.div>
     );
 }
